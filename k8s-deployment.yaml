@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-python-app
-        image: devopsparth/pythonEKS
+        image: devopsparth/pythoneks
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
